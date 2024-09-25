@@ -18,7 +18,7 @@ console.log(hex);
 console.log(binary === octal);
 console.log(octal === hex);
 
-console.log(1.0 === 1.0); // true
+console.log(1.0 === 1); // true
 
 //숫자 타입은 추가적으로 세가지 값을 표현 할 수있다.
 console.log(10 / 0); //Infinity 양의 무한대
@@ -70,7 +70,7 @@ console.log(test1);
 
 //<심벌 타입>//
 /**
- * 심벌 타입은 ES6에 추가된 타입으로 변경 부가능한 원시 값이다.
+ * 심벌 타입은 ES6에 추가된 타입으로 변경 불가능한 원시 값이다.
  * 심벌은 다른 값과 중복되지 않는다.
  * 심벌은 Symbol 함수로 생성한다.
  * 심벌은 이름의 충돌 위험이 없는 객체의 유일한 프로퍼티 키를 만들기 위해 사용된디.
